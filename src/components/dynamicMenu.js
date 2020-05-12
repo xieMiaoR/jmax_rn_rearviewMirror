@@ -1,0 +1,146 @@
+const device = {
+    trackQueryTime:60, //轨迹查询时间
+    menu:[
+        {
+            name:'相册',
+            icon:require('../assets/tabbar/Photo.png'),
+            routeName:'Photo',
+        },
+        {
+            name:'追踪',
+            routeName:'Trace',
+            icon:require('../assets/tabbar/Trace.png'),
+        },
+        {
+            name:'围栏',
+            routeName:'Fence',
+            icon:require('../assets/tabbar/Fence.png'),     
+        },          
+        {
+            name:'轨迹',
+            routeName:'Track',
+            icon:require('../assets/tabbar/Trajectory.png'),     
+        },{
+        name:'更多',
+        icon:require('../assets/tabbar/More.png'),
+        routeName:null,
+        action:'more',
+        children:[
+            {
+                name:'流量卡',
+                icon:require('../assets/bubble/Norraffic_card.png'),
+                routeName:null,
+                action:'flowCard'
+            },
+            {
+                name:'录音',
+                icon:require('../assets/bubble/Recording.png'),
+                routeName:'Record',
+            },
+            {
+                name:'导航',
+                icon:require('../assets/bubble/Navigation.png'),
+                routeName:null,
+                action:'navigation'
+            },
+            {
+                name:'设置',
+                routeName:'SetUp',
+                icon:require('../assets/bubble/Setting.png'),    
+            },            
+            {
+                name:'位置分享',
+                icon:require('../assets/bubble/Norraffic_card.png'),
+                routeName:null,
+                action:'share'
+            },
+            {
+                name:'详情',
+                icon:require('../assets/bubble/Details.png'),
+                routeName:'Details',
+            }
+        ]
+    }]
+}
+
+export default [{
+    type:['YZ08','YZ10','YZ18','C18'],
+    trackQueryTime:7, //轨迹查询时间
+    menu:[
+        {
+            name:'实时视频',
+            icon:require('../assets/tabbar/Live_video.png'),
+            routeName:null,
+            action:'rvc'
+        }, 
+        {
+            name:'相册',
+            icon:require('../assets/tabbar/Photo.png'),
+            routeName:'Photo',
+        },
+        {
+            name:'追踪',
+            routeName:'Trace',
+            icon:require('../assets/tabbar/Trace.png'),
+        },
+        {
+            name:'围栏',
+            routeName:'Fence',
+            icon:require('../assets/tabbar/Fence.png'),     
+        },
+        {
+        name:'更多',
+        icon:require('../assets/tabbar/More.png'),
+        routeName:null,
+        action:'more',
+        children:[
+        {
+            name:'流量卡',
+            icon:require('../assets/bubble/Norraffic_card.png'),
+            routeName:null,
+            action:'flowCard'
+        },            
+        {
+            name:'媒体同步',
+            icon:require('../assets/bubble/Synchronize.png'),
+            routeName:'MediaSyn',
+        },
+        {
+            name:'导航',
+            icon:require('../assets/bubble/Navigation.png'),
+            routeName:null,
+            action:'navigation'
+        },
+        {
+            name:'轨迹',
+            routeName:'Track',
+            icon:require('../assets/bubble/Trajectory.png'),     
+        },        
+        {
+            name:'设置',
+            routeName:'SetUp',
+            icon:require('../assets/bubble/Setting.png'),    
+        },
+        {
+            name:'位置分享',
+            icon:require('../assets/bubble/Share.png'),
+            routeName:null,
+            action:'share'
+        },
+        {
+            name:'详情',
+            icon:require('../assets/bubble/Details.png'),
+            routeName:'Details',
+        }]
+    }
+]},
+{
+    type:['YZ01A+'],
+    ...device
+},
+{
+    type:['YZ01B'],
+    insTimeArr: ['30s','1分钟','2分钟','3分钟','4分钟','5分钟'],
+    ...device,
+}
+]
