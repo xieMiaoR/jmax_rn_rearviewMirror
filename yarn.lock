@@ -3653,9 +3653,9 @@ lodash.throttle@^4.1.1:
   integrity sha1-wj6RtxAkKscMN/HhzaknTMOb8vQ=
 
 lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.5, lodash@^4.3.0, lodash@^4.6.1:
-  version "4.17.15"
-  resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.3.1, loose-envify@^1.4.0:
   version "1.4.0"
@@ -4863,10 +4863,10 @@ react-native-gesture-handler@1.3.0:
     invariant "^2.2.2"
     prop-types "^15.5.10"
 
-react-native-jimi@1.4.3:
-  version "1.4.3"
-  resolved "https://registry.npm.taobao.org/react-native-jimi/download/react-native-jimi-1.4.3.tgz#f5992a5276d920e2661d2132645e07ef9911af39"
-  integrity sha1-9ZkqUnbZIOJmHSEyZF4H75kRrzk=
+react-native-jimi@1.4.5:
+  version "1.4.5"
+  resolved "https://registry.yarnpkg.com/react-native-jimi/-/react-native-jimi-1.4.5.tgz#b9258f878e536009f3c6cf1c1df813b641187e1a"
+  integrity sha512-16H1Q7AK4Xy/gTBipKUyYyylGO6kCKtAHhITDRz3wir6SawChYf6wQAxRBfDLIOpRGI4JJ8XilyttTwzOYa7EA==
 
 react-native-maps@0.24.0:
   version "0.24.0"
