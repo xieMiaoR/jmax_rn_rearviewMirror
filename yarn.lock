@@ -4760,9 +4760,9 @@ punycode@^2.1.0, punycode@^2.1.1:
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://registry.npmjs.org/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 query-string@^6.2.0:
   version "6.9.0"
@@ -4863,10 +4863,10 @@ react-native-gesture-handler@1.3.0:
     invariant "^2.2.2"
     prop-types "^15.5.10"
 
-react-native-jimi@1.4.3:
-  version "1.4.3"
-  resolved "https://registry.npm.taobao.org/react-native-jimi/download/react-native-jimi-1.4.3.tgz#f5992a5276d920e2661d2132645e07ef9911af39"
-  integrity sha1-9ZkqUnbZIOJmHSEyZF4H75kRrzk=
+react-native-jimi@1.4.5:
+  version "1.4.5"
+  resolved "https://registry.yarnpkg.com/react-native-jimi/-/react-native-jimi-1.4.5.tgz#b9258f878e536009f3c6cf1c1df813b641187e1a"
+  integrity sha512-16H1Q7AK4Xy/gTBipKUyYyylGO6kCKtAHhITDRz3wir6SawChYf6wQAxRBfDLIOpRGI4JJ8XilyttTwzOYa7EA==
 
 react-native-maps@0.24.0:
   version "0.24.0"
