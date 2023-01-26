@@ -4863,10 +4863,10 @@ react-native-gesture-handler@1.3.0:
     invariant "^2.2.2"
     prop-types "^15.5.10"
 
-react-native-jimi@1.4.3:
-  version "1.4.3"
-  resolved "https://registry.npm.taobao.org/react-native-jimi/download/react-native-jimi-1.4.3.tgz#f5992a5276d920e2661d2132645e07ef9911af39"
-  integrity sha1-9ZkqUnbZIOJmHSEyZF4H75kRrzk=
+react-native-jimi@1.4.5:
+  version "1.4.5"
+  resolved "https://registry.yarnpkg.com/react-native-jimi/-/react-native-jimi-1.4.5.tgz#b9258f878e536009f3c6cf1c1df813b641187e1a"
+  integrity sha512-16H1Q7AK4Xy/gTBipKUyYyylGO6kCKtAHhITDRz3wir6SawChYf6wQAxRBfDLIOpRGI4JJ8XilyttTwzOYa7EA==
 
 react-native-maps@0.24.0:
   version "0.24.0"
@@ -6036,9 +6036,9 @@ typedarray@^0.0.6:
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
 ua-parser-js@^0.7.18:
-  version "0.7.20"
-  resolved "https://registry.npmjs.org/ua-parser-js/-/ua-parser-js-0.7.20.tgz#7527178b82f6a62a0f243d1f94fd30e3e3c21098"
-  integrity sha512-8OaIKfzL5cpx8eCMAhhvTlft8GYF8b2eQr6JkCyVdrgjcytyOmPCXrqXFcUnhonRpLlh5yxEZVohm6mzaowUOw==
+  version "0.7.33"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.33.tgz#1d04acb4ccef9293df6f70f2c3d22f3030d8b532"
+  integrity sha512-s8ax/CeZdK9R/56Sui0WM6y9OFREJarMRHqLB2EwkovemBxNQ+Bqu8GAsUnVcXKgphb++ghr/B2BZx4mahujPw==
 
 uglify-es@^3.1.9:
   version "3.3.9"
